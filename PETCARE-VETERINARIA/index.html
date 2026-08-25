@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PetCare Veterinaria & Pet Shop</title>
+<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+<header>
+  <nav class="nav">
+    <a class="logo" href="#inicio">🐾 PetCare</a>
+    <button id="menu">☰</button>
+    <div id="links">
+      <a href="#inicio">Inicio</a><a href="#nosotros">Nosotros</a><a href="#servicios">Servicios</a>
+      <a href="#tienda">Tienda</a><a href="#promos">Promociones</a><a href="#contacto">Contacto</a>
+      <a class="btn" href="#contacto">Agendar cita</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+<section id="inicio" class="hero">
+  <div><span class="tag">❤️ Cuidado responsable</span>
+  <h1>Salud y felicidad para tu mejor amigo</h1>
+  <p>Atención veterinaria y productos para perros y gatos en un solo lugar.</p>
+  <a class="btn" href="#contacto">Agendar cita</a> <a class="btn alt" href="#servicios">Ver servicios</a></div>
+  <div class="pet">🐶<br><small>🐱</small></div>
+</section>
+
+<section id="nosotros">
+<h2>Nosotros</h2><p class="center">Somos una clínica y tienda veterinaria ficticia comprometida con el bienestar animal, la prevención y el cuidado responsable.</p>
+<div class="cards"><article>💚 <h3>Misión</h3><p>Brindar atención cercana y de calidad.</p></article><article>⭐ <h3>Valores</h3><p>Respeto, empatía, responsabilidad y confianza.</p></article><article>🏆 <h3>Experiencia</h3><p>Un equipo preparado para cuidar a tus mascotas.</p></article></div>
+</section>
+
+<section id="servicios" class="gray"><h2>Servicios veterinarios</h2>
+<div class="cards">
+<article><div class="icon">🩺</div><h3>Consulta veterinaria</h3><p>Revisión general y orientación.</p><a href="#contacto">Más información</a></article><article><div class="icon">💉</div><h3>Vacunación</h3><p>Prevención y control de enfermedades.</p><a href="#contacto">Más información</a></article><article><div class="icon">🧴</div><h3>Desparasitación</h3><p>Cuidado interno y externo.</p><a href="#contacto">Más información</a></article><article><div class="icon">✂️</div><h3>Peluquería</h3><p>Baño, corte y estética.</p><a href="#contacto">Más información</a></article><article><div class="icon">🦷</div><h3>Odontología</h3><p>Higiene y cuidado dental.</p><a href="#contacto">Más información</a></article><article><div class="icon">🏥</div><h3>Cirugía</h3><p>Procedimientos veterinarios.</p><a href="#contacto">Más información</a></article><article><div class="icon">🚑</div><h3>Urgencias</h3><p>Atención prioritaria.</p><a href="#contacto">Más información</a></article><article><div class="icon">🌿</div><h3>Medicina preventiva</h3><p>Planes para una vida saludable.</p><a href="#contacto">Más información</a></article>
+</div></section>
+
+<section id="tienda"><h2>Pet Shop</h2><div id="productos" class="cards">
+<article class="producto"><div class="product-img">🥣</div><h3>Alimento Premium</h3><p>Nutrición para perros.</p><strong>$85,000</strong><button class="btn add" data-name="Alimento Premium" data-price="85000">Agregar al carrito</button></article><article class="producto"><div class="product-img">🦴</div><h3>Juguete Mordedor</h3><p>Diversión y ejercicio.</p><strong>$25,000</strong><button class="btn add" data-name="Juguete Mordedor" data-price="25000">Agregar al carrito</button></article><article class="producto"><div class="product-img">🛏️</div><h3>Cama Confort</h3><p>Descanso cómodo.</p><strong>$95,000</strong><button class="btn add" data-name="Cama Confort" data-price="95000">Agregar al carrito</button></article><article class="producto"><div class="product-img">🦮</div><h3>Correa Resistente</h3><p>Seguridad para paseos.</p><strong>$35,000</strong><button class="btn add" data-name="Correa Resistente" data-price="35000">Agregar al carrito</button></article><article class="producto"><div class="product-img">🧼</div><h3>Kit de Higiene</h3><p>Limpieza y cuidado.</p><strong>$42,000</strong><button class="btn add" data-name="Kit de Higiene" data-price="42000">Agregar al carrito</button></article><article class="producto"><div class="product-img">🎀</div><h3>Accesorio</h3><p>Estilo para tu mascota.</p><strong>$18,000</strong><button class="btn add" data-name="Accesorio" data-price="18000">Agregar al carrito</button></article><article class="producto"><div class="product-img">🐕</div><h3>Snack Canino</h3><p>Premio delicioso.</p><strong>$22,000</strong><button class="btn add" data-name="Snack Canino" data-price="22000">Agregar al carrito</button></article><article class="producto"><div class="product-img">🐈</div><h3>Kit para Gatos</h3><p>Accesorios esenciales.</p><strong>$65,000</strong><button class="btn add" data-name="Kit para Gatos" data-price="65000">Agregar al carrito</button></article>
+</div><div class="cart">🛒 Carrito: <span id="count">0</span> productos | Total: $<span id="total">0</span></div></section>
+
+<section id="promos" class="gray"><h2>Promociones</h2><div class="cards">
+<article>💉 <h3>Consulta + vacunación</h3><p>Paquete especial para prevención.</p></article>
+<article>✂️ <h3>Baño + corte</h3><p>Servicio de estética con descuento.</p></article>
+<article>🥣 <h3>Descuento en alimentos</h3><p>Precios especiales en productos seleccionados.</p></article>
+<article>🌿 <h3>Plan preventivo</h3><p>Seguimiento para una vida saludable.</p></article>
+</div></section>
+
+<section><h2>Equipo profesional</h2><div class="cards">
+<article>👩‍⚕️ <h3>Dra. Laura Gómez</h3><p>Médica veterinaria.</p></article>
+<article>👨‍⚕️ <h3>Andrés Ruiz</h3><p>Auxiliar veterinario.</p></article>
+<article>✂️ <h3>Camila Torres</h3><p>Especialista en peluquería.</p></article>
+<article>🛍️ <h3>Juan Pérez</h3><p>Asesor de tienda.</p></article>
+</div></section>
+
+<section class="gray"><h2>Testimonios</h2><div class="cards"><article>“Excelente atención y mucho cariño con mi perro.”<b> — María</b></article><article>“Encontré todo lo que necesitaba para mi gato.”<b> — Carlos</b></article><article>“La atención fue rápida y profesional.”<b> — Andrea</b></article></div></section>
+
+<section><h2>Preguntas frecuentes</h2><div class="faq">
+<details><summary>¿Cómo puedo solicitar una cita?</summary><p>Completa el formulario de contacto y te orientaremos.</p></details>
+<details><summary>¿Atienden urgencias?</summary><p>Sí, contamos con servicio de urgencias veterinarias.</p></details>
+<details><summary>¿Qué vacunas necesita mi mascota?</summary><p>Depende de su edad y condición; consulta con el veterinario.</p></details>
+<details><summary>¿Realizan domicilios?</summary><p>La disponibilidad puede consultarse mediante el formulario.</p></details>
+</div></section>
+
+<section id="contacto" class="contact"><h2>Agenda tu cita</h2>
+<form id="form"><input required placeholder="Nombre completo"><input required type="email" placeholder="Correo electrónico"><input required placeholder="Teléfono">
+<select required><option value="">Tipo de mascota</option><option>Perro</option><option>Gato</option></select>
+<select required><option value="">Servicio requerido</option><option>Consulta</option><option>Vacunación</option><option>Peluquería</option><option>Urgencias</option></select>
+<input required type="date"><textarea required placeholder="Mensaje"></textarea><button class="btn">Enviar solicitud</button><p id="msg"></p></form>
+</section>
+</main>
+<footer>🐾 <b>PetCare Veterinaria & Pet Shop</b><br>Cra. 45 # 10-20 · Tel. 300 000 0000 · petcare@email.com<br>Lun-Sáb 8:00 a.m. - 6:00 p.m.<br>© 2026 PetCare</footer>
+<script src="js/script.js"></script>
+</body></html>
